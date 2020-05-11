@@ -36,17 +36,17 @@ public class TestLeapYear {
 
 	@Test
 	public void testLeaveYear2008() {
-		Assert.assertEquals(false, leapYear.isLeapYear(2008));
+		Assert.assertEquals(true, leapYear.isLeapYear(2008));
 	}
 
 	@Test
 	public void testLeaveYear2012() {
-		Assert.assertEquals(false, leapYear.isLeapYear(2012));
+		Assert.assertEquals(true, leapYear.isLeapYear(2012));
 	}
 
 	@Test
 	public void testLeaveYear2016() {
-		Assert.assertEquals(false, leapYear.isLeapYear(2016));
+		Assert.assertEquals(true, leapYear.isLeapYear(2016));
 	}
 
 	@Test

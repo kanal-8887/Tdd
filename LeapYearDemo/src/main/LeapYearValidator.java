@@ -3,7 +3,7 @@ package main;
 public class LeapYearValidator {
 	public boolean isLeapYear(int leapYear) {
 		boolean leap = false;
-		if (leapYear % 4 == 0 && leapYear % 100 == 0 && leapYear % 400 == 0) {
+		if ((leapYear % 4 == 0 && leapYear % 100 != 0) || (leapYear % 400 == 0)) {
 			leap = true;
 		}
 		if (leap) {
